@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Md. Rakib Hasan | Aspiring Software Engineer</title>
+<meta name="description" content="Portfolio of Md. Rakib Hasan, CSE student at IUBAT.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="#top">RH</a>
+  <nav id="menu" aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <button id="theme" class="icon-btn" aria-label="Toggle dark mode">◐</button>
+    <button id="burger" class="icon-btn burger" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hello">Hi, I'm</p>
+      <h1>Md. Rakib Hasan</h1>
+      <p class="role">I build <span id="typed" aria-live="polite"></span><span class="caret"></span></p>
+      <p class="lead">Computer Science &amp; Engineering student at IUBAT, building web applications and looking for real-world projects to grow on.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">View projects</a>
+        <a class="btn" href="#contact">Contact me</a>
+        <a class="social" href="https://github.com/Rakib-RH" target="_blank" rel="noopener" aria-label="GitHub"><img class="inv" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" width="26" height="26"></a>
+        <a class="social" href="https://linkedin.com/in/rakib-hasan23103272" target="_blank" rel="noopener" aria-label="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="" width="26" height="26"></a>
+      </div>
+    </div>
+    <div class="avatar">
+      <img src="assets/photo.jpg" alt="Md. Rakib Hasan" onerror="this.remove()">
+      <span>RH</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About</h2>
+    <p class="prose">I'm a motivated Computer Science and Engineering student with hands-on experience building web-based applications using HTML, CSS, PHP, ASP.NET and MySQL. I'm seeking an opportunity to apply strong technical fundamentals, contribute to real-world software projects, and grow as a professional developer.</p>
+    <ul class="facts">
+      <li style="--c:#2f5bff">🎓 <strong>BSc</strong> CSE, IUBAT (ongoing)</li>
+      <li style="--c:#f97316">🚀 <strong>2</strong> web projects built</li>
+      <li style="--c:#10b981">🌐 <strong>Bangla</strong> &amp; <strong>English</strong></li>
+    </ul>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skill-grid">
+
+      <div class="skill" style="--c:#2f5bff">
+        <h3>Programming</h3>
+        <p class="chips">
+          <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="" width="18" height="18">C</span>
+          <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="" width="18" height="18">C++</span>
+          <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="" width="18" height="18">C#</span>
+          <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="" width="18" height="18">PHP</span>
+          <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" width="18" height="18">JavaScript</span>
+          <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="" width="18" height="18">Python</span>
+        </p>
+      </div>
+
+      <div class="skill" style="--c:#f97316">
+        <h3>Web</h3>
+        <p class="chips">
+          <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" width="18" height="18">HTML5</span>
+          <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" width="18" height="18">CSS3</span>
+          <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt="" width="18" height="18">ASP.NET</span>
+          <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" alt="" width="18" height="18">WordPress</span>
+        </p>
+      </div>
+
+      <div class="skill" style="--c:#10b981">
+        <h3>Database</h3>
+        <p class="chips">
+          <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="" width="18" height="18">MySQL</span>
+          <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="" width="18" height="18">MongoDB</span>
+        </p>
+      </div>
+
+      <div class="skill" style="--c:#a855f7">
+        <h3>Tools</h3>
+        <p class="chips">
+          <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" width="18" height="18">Git</span>
+          <span><img class="inv" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" width="18" height="18">GitHub</span>
+          <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="" width="18" height="18">VS Code</span>
+        </p>
+      </div>
+
+      <div class="skill wide" style="--c:#ec4899">
+        <h3>Soft skills</h3>
+        <p class="chips"><span>🤝 Teamwork</span><span>🧩 Problem solving</span><span>⏱️ Time management</span><span>💬 Communication</span></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="cards">
+
+      <article class="card" style="--c1:#2f5bff;--c2:#a855f7">
+        <div class="card-top">
+          <span class="big">🎓</span>
+          <span class="logos">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="">
+          </span>
+        </div>
+        <h3>Grading System Management</h3>
+        <p class="meta">Web application · Personal project</p>
+        <p>A web-based grading system to manage student grades and academic records. Interfaces built with HTML and CSS, backend in PHP with MySQL.</p>
+        <p class="chips"><span>HTML</span><span>CSS</span><span>PHP</span><span>MySQL</span></p>
+        <a class="link" href="https://github.com/Rakib-RH" target="_blank" rel="noopener"><img class="inv" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" width="18" height="18"> See on GitHub</a>
+      </article>
+
+      <article class="card" style="--c1:#f97316;--c2:#ec4899">
+        <div class="card-top">
+          <span class="big">📦</span>
+          <span class="logos">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt="">
+          </span>
+        </div>
+        <h3>Inventory System Management</h3>
+        <p class="meta">Web application · Personal project</p>
+        <p>An inventory system for managing product information and stock records, with structured HTML/CSS interfaces and ASP.NET functionality.</p>
+        <p class="chips"><span>HTML</span><span>CSS</span><span>ASP.NET</span></p>
+        <a class="link" href="https://github.com/Rakib-RH" target="_blank" rel="noopener"><img class="inv" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" width="18" height="18"> See on GitHub</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <ol class="timeline">
+      <li style="--c:#2f5bff"><time>Present</time><h3>BSc in Computer Science and Engineering</h3><p>International University of Business Agriculture and Technology (IUBAT)</p></li>
+      <li style="--c:#f97316"><time>2020</time><h3>Higher Secondary Certificate (HSC)</h3><p>Police Line School and College, Rangpur</p></li>
+      <li style="--c:#10b981"><time>2018</time><h3>Secondary School Certificate (SSC)</h3><p>Border Guard Public School and College, Rangpur</p></li>
+    </ol>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p class="prose">Have a project or an opportunity? Send me a message.</p>
+    <div class="contact-wrap">
+      <ul class="contact-list">
+        <li><span class="ci" style="--c:#ea4335">✉️</span><a href="mailto:rakibhasan25.cse@gmail.com">rakibhasan25.cse@gmail.com</a></li>
+        <li><span class="ci" style="--c:#10b981">📞</span><a href="tel:+8801773920595">01773920595</a></li>
+        <li><span class="ci"><img class="inv" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" width="18" height="18"></span><a href="https://github.com/Rakib-RH" target="_blank" rel="noopener">github.com/Rakib-RH</a></li>
+        <li><span class="ci"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="" width="18" height="18"></span><a href="https://linkedin.com/in/rakib-hasan23103272" target="_blank" rel="noopener">linkedin.com/in/rakib-hasan23103272</a></li>
+      </ul>
+      <div class="form" id="form">
+        <label>Name<input id="name" type="text" autocomplete="name"></label>
+        <label>Message<textarea id="msg" rows="4"></textarea></label>
+        <button class="btn primary" id="send" type="button">Send email</button>
+        <p class="hint" id="hint" role="status"></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">© <span id="year"></span> Md. Rakib Hasan</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

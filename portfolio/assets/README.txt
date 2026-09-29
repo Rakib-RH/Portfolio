@@ -1,0 +1,1 @@
+portfolio/assets/photo.jpg
